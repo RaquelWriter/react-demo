@@ -56,6 +56,7 @@ function Countdown() {
           <p>Pick your date to start countdown:</p>
           <p>
             <Calendar
+              className='calendar'
               onChange={(e) => handleDateChange(e)}
               value={dateChoosen}
               minDate={new Date()}
