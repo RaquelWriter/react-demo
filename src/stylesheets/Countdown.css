@@ -1,7 +1,7 @@
-div{
+div {
   padding: 0;
 }
-.countdown-counter{
+.countdown-counter {
   margin: 2vw;
   padding: 0 2vw 0 2vw;
   display: flex;
@@ -14,24 +14,24 @@ div{
   border-radius: 2vw;
   box-shadow: 0 0 5px 10px;
 }
-.countdown-counter p{
+.countdown-counter p {
   color: #f5a3e8;
   text-shadow: 1px 1px 7px;
   text-align: center;
 }
-.countdown-counter .counter-part{
+.countdown-counter .counter-part {
   font-size: 8vw;
 }
-.countdown-counter .small-text{
+.countdown-counter .small-text {
   font-size: 2vw;
 }
-.countdowm-pick-date{
+.countdowm-pick-date {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.countdowm-pick-date p{
+.countdowm-pick-date p {
   color: white;
   margin-bottom: 20px;
 }

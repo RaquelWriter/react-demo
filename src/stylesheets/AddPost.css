@@ -1,26 +1,25 @@
-
-.post.new{
-    background-color: aquamarine;
-  }
-  textarea{
-    border: none;
-    resize: none;
-    background-color: aquamarine;
-  }
-  textarea:focus{
-    outline: none;
-  }
-  button.save{
-    background-color: grey;
-    border-radius: 1vw;
-    padding: 1rem;
-    min-height: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
-  }
-  button.save:hover{
-    background-color: #ba005d; /* Green */
-    color: white;
-  }
+.post.new {
+  background-color: aquamarine;
+}
+textarea {
+  border: none;
+  resize: none;
+  background-color: aquamarine;
+}
+textarea:focus {
+  outline: none;
+}
+button.save {
+  background-color: grey;
+  border-radius: 1vw;
+  padding: 1rem;
+  min-height: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+button.save:hover {
+  background-color: #ba005d; /* Green */
+  color: white;
+}

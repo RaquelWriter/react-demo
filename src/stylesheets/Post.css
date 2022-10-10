@@ -5,10 +5,10 @@
   font-size: 1.5em;
   cursor: pointer;
 }
-#edit-icon{
+#edit-icon {
   visibility: hidden;
 }
-.post{
+.post {
   background-color: #fef68a;
   margin-bottom: 1.5vw;
   border-radius: 2vw;
@@ -19,7 +19,7 @@
   justify-content: space-between;
   white-space: pre-wrap;
 }
-.post-footer{
+.post-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
