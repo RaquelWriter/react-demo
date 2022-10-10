@@ -1,0 +1,26 @@
+.note-footer {
+  color: white;
+}
+.react-icon {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+#edit-icon{
+  visibility: hidden;
+}
+.post{
+  background-color: #fef68a;
+  margin-bottom: 1.5vw;
+  border-radius: 2vw;
+  padding: 1rem;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+}
+.post-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

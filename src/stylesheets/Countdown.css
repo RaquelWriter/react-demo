@@ -1,0 +1,37 @@
+div{
+  padding: 0;
+}
+.countdown-counter{
+  margin: 2vw;
+  padding: 0 2vw 0 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(250deg, #000, #bc39ad);
+  color: #bc39ad;
+  border: 2px solid #584a54;
+  border-radius: 2vw;
+  box-shadow: 0 0 5px 10px;
+}
+.countdown-counter p{
+  color: #f5a3e8;
+  text-shadow: 1px 1px 7px;
+  text-align: center;
+}
+.countdown-counter .counter-part{
+  font-size: 8vw;
+}
+.countdown-counter .small-text{
+  font-size: 2vw;
+}
+.countdowm-pick-date{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.countdowm-pick-date p{
+  color: white;
+  margin-bottom: 20px;
+}

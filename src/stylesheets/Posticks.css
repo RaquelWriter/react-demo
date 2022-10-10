@@ -1,0 +1,72 @@
+.container-post-list {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.search-icon {
+  color: white;
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: lightgrey;
+  border-radius: 2vw;
+  padding: 2vw;
+}
+.search input {
+  border: none;
+  background-color: transparent;
+}
+.search input:focus {
+  outline: none;
+}
+.popUpWindow {
+  position: fixed;
+  top: 20vh;
+  width: 40vw;
+  left: 30vw;
+  background-color: #fef68a;
+  /*transition: opacity 500ms;*/
+  border: solid 0.5vw black;
+  border-radius: 1vw;
+}
+.popUpWindow:target {
+  visibility: visible;
+  background-color: transparent;
+  opacity: 1;
+}
+.editPost {
+  background-color: transparent;
+}
+.editpost-footer {
+  background-color: transparent;
+}
+.choose-color-div {
+  max-width: 40rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+.small-box {
+  width: 4vw;
+  height: 20px;
+  border: solid black 0.2vw;
+}
+#choose-blue-box {
+  background-color: lightblue;
+  cursor: pointer;
+}
+#choose-pink-box {
+  background-color: lightpink;
+  cursor: pointer;
+}
+#choose-coral-box {
+  background-color: lightcoral;
+  cursor: pointer;
+}
+#choose-yellow-box {
+  background-color: lightyellow;
+  cursor: pointer;
+}

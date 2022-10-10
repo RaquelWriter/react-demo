@@ -1,0 +1,26 @@
+.button-operation{
+    width: 2vw;
+    height: 2vh;
+    color: white;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 0.5vw;
+    border: 0.2vw solid white;
+    margin: 0.5vw;
+    cursor: pointer;
+    user-select: none;
+}
+.button-operation:hover{
+    background-color: lightcoral;
+}
+.operator{
+    background-color: #316aa7;
+}
+.operator:hover{
+    background-color: lightblue;
+    color: black;
+}
