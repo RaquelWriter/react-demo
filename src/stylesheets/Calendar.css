@@ -1,3 +1,6 @@
+.calendar div{
+  padding: 0;
+}
 .react-calendar {
   width: 50vw;
   background: rgb(232, 199, 228);
