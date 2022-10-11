@@ -1,14 +1,26 @@
-import "./App.css";
-import "./stylesheets/Button.css";
+import { Suspense, lazy} from 'react';
+import './App.css';
+import './stylesheets/Button.css';
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Calculator from "./components/Calculator";
-import UsersTable from "./components/UsersTable";
-import Posticks from "./components/Posticks";
-import Counter from "./components/Counter";
-import LandingPage from "./components/LandingPage";
-import Countdown from "./components/Countdown";
+import LoadingSpinner from './components/LoadingSpinner';
+
+const Calculator = lazy(() => import('./components/Calculator'));
+const UsersTable = lazy(() => import('./components/UsersTable'));
+const Posticks = lazy(() => import('./components/Posticks'));
+const Counter = lazy(() => import('./components/Counter'));
+const LandingPage = lazy(() => import('./components/LandingPage'));
+const Countdown = lazy(() => import('./components/Countdown'));
+
+/*
+import Calculator from './components/Calculator';
+import UsersTable from './components/UsersTable';
+import Posticks from './components/Posticks';
+import Counter from './components/Counter';
+import LandingPage from './components/LandingPage';
+import Countdown from './components/Countdown';
+*/
 
 /* SAMPLE 2
 EVENTLISTENER WITH USEEFFECT
@@ -107,14 +119,16 @@ const fetchData = () => {
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route exact path="/" element={<LandingPage />} />
-        <Route exact path="/Countdown" element={<Countdown />} />
-        <Route exact path="/Posticks" element={<Posticks />} />
-        <Route exact path="/Calculator" element={<Calculator />} />
-        <Route exact path="/UsersTable" element={<UsersTable />} />
-        <Route exact path="/Counter" element={<Counter />} />
-      </Routes>
+      <Suspense fallback={<LoadingSpinner />}>
+        <Routes>
+          <Route exact path='/' element={<LandingPage />} />
+          <Route exact path='/Countdown' element={<Countdown />} />
+          <Route exact path='/Posticks' element={<Posticks />} />
+          <Route exact path='/Calculator' element={<Calculator />} />
+          <Route exact path='/UsersTable' element={<UsersTable />} />
+          <Route exact path='/Counter' element={<Counter />} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   );
 }
