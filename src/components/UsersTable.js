@@ -1,4 +1,5 @@
 import { useState, useEffect} from 'react';
+import '../stylesheets/UsersTable.css';
 
 function UsersTable(){
 

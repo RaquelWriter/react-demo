@@ -1,12 +1,19 @@
-import { useState } from 'react';
+import { useState, Suspense, lazy } from 'react';
 import { nanoid } from 'nanoid';
 import '../stylesheets/Button.css';
 import '../stylesheets/Posticks.css';
+import LoadingSpinner from '../components/LoadingSpinner';
 
+const Post = lazy(() => import('../components/Post'));
+const AddPost = lazy(() => import('../components/AddPost'));
+const SearchPosts = lazy(() => import('../components/SearchPosts'));
+const EditPost = lazy(() => import('../components/EditPost'));
+/*
 import Post from '../components/Post';
 import AddPost from '../components/AddPost';
 import SearchPosts from '../components/SearchPosts';
 import EditPost from '../components/EditPost';
+*/
 
 function Posticks() {
   const [posts, setPosts] = useState([
@@ -112,7 +119,9 @@ function Posticks() {
           ></div>
         </div>
         <div>
-          <SearchPosts handleSearchPost={setSearchPost} />
+          <Suspense fallback={<LoadingSpinner />}>
+            <SearchPosts handleSearchPost={setSearchPost} />
+          </Suspense>
         </div>
         <div className='container-post-list'>
           {
@@ -120,18 +129,22 @@ function Posticks() {
             // If the search text is in the posts then show them
             searchingArr !== undefined
               ? searchingArr.map((item) => (
-                  <Post
-                    id={item.id}
-                    text={item.text}
-                    date={item.date}
-                    backgroundColor={colorPost}
-                    handleDeletePost={deletePost}
-                    handleEditPost={editPost}
-                  />
+                  <Suspense fallback={<LoadingSpinner />}>
+                    <Post
+                      id={item.id}
+                      text={item.text}
+                      date={item.date}
+                      backgroundColor={colorPost}
+                      handleDeletePost={deletePost}
+                      handleEditPost={editPost}
+                    />
+                  </Suspense>
                 ))
               : console.log('NO ES UNDEFINED')
           }
-          <AddPost handleAddPost={addPost} />
+          <Suspense fallback={<LoadingSpinner />}>
+            <AddPost handleAddPost={addPost} />
+          </Suspense>
         </div>
 
         <div
@@ -139,7 +152,9 @@ function Posticks() {
           id='popup'
           style={{ visibility: isPopUpVisible }}
         >
-          <EditPost handleEditPost={editPost} />
+          <Suspense fallback={<LoadingSpinner />}>
+            <EditPost handleEditPost={editPost} />
+          </Suspense>
         </div>
       </div>
     </>
