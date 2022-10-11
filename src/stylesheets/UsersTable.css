@@ -1,0 +1,28 @@
+.table {
+  width: 80%;
+  margin: 0px auto;
+}
+th {
+  background-color: grey;
+  width: 100%;
+  font-size: 2vw;
+}
+tr {
+  display: flex;
+  width: 60vw;
+}
+td {
+  background-color: lightgrey;
+  padding: 0.8vw;
+  width: 80rem;
+  font-size: 2vw;
+}
+.filterByCityText {
+  color: white;
+}
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10vw;
+}

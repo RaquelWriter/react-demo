@@ -11,13 +11,20 @@
   border-radius: 0.5vw;
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
+  user-select: none;
 }
-.button:hover {
-  background-color: #ba005d; /* Green */
+.button.button-lila-neon:hover {
+  background-color: #bc39ad;
   color: white;
 }
-.buttons-landing-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.button.button-lila-neon{
+  line-height: 0px;
+  display: inline-block;
+  height: 2vh;
+  font-size: 0.8em;  
+  background: linear-gradient(250deg, #000, #bc39ad);
+  color: #b385ad;
+  border: 2px solid #584a54;
+  border-radius: 2vw;
+  box-shadow: 0 0 5px 10px;
 }

@@ -1,0 +1,9 @@
+.loading-spinner {
+  margin-top: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading-spinner img{
+  width: 100px;
+}

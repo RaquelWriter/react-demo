@@ -1,0 +1,16 @@
+.screenshotsLandingPage {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(250deg, #000, #bc39ad);
+  color: #bc39ad;
+  border: 2px solid #584a54;
+  border-radius: 2vw;
+  box-shadow: 0 0 5px 10px;
+}
+.container-landing-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

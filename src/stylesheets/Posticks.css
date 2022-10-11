@@ -48,6 +48,7 @@
   justify-content: space-between;
   align-items: center;
   justify-items: center;
+  user-select: none;
 }
 .small-box {
   width: 4vw;
