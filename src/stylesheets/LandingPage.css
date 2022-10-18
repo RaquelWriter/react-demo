@@ -8,9 +8,11 @@
   box-shadow: 0 0 5px 10px;
 }
 .container-landing-page {
+  width: 80%;
+  margin: 20px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   text-align: center;
+  gap: 50px;
 }

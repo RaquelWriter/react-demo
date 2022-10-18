@@ -1,0 +1,35 @@
+
+div{
+  color:white;
+}
+.imgSPS{
+  border-radius:50%;
+}
+.imgSPS:hover{
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.2);
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition: opacity 0.3s;
+  transition-duration: 0.2s;
+  transform: scale(1.1);
+}
+.container-stone-paper-scissors {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.img-stone-paper-scissors {
+  width: 100px;
+}
+.results-stone-paper-scissors {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
