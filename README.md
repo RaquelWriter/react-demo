@@ -12,7 +12,8 @@ Then type npm start.
 
 ## SOME NOTES
 I use lazy load for most of the components, showing the LoadingSpinner component while the component is loading.
-I also use extensively useState and useEffect as
+I also use extensively useState and useEffect aswell.
+The project is responsive.
 
 ## APPS
 
@@ -40,4 +41,16 @@ onClick={(e) => handleClickChoice('Paper').
 The images are circled. To create the shadow for them I had to add this to the css:
 border-radius:50%;
 
+# COUNTER
+Components: Counter.js
+Very simple counter to count the clicks of the button.
+
+# JSON BD
+Components: UsersTable.js
+A sample of how to fetch a JSON DB stored in the same directory of the project.
+
+## TO DOs
+Include a Menu.
+Include a way to change the Posticks
+Fix an error in Calculator.
 
