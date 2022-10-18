@@ -11,9 +11,11 @@ For installing the node modules, open the Terminal and type: npm install.
 Then type npm start.
 
 ## SOME NOTES
-I use lazy load for most of the components, showing the LoadingSpinner component while the component is loading.
-I also use extensively useState and useEffect aswell.
-The project is responsive.
+<ul>
+  <li>I use lazy load for most of the components, showing the LoadingSpinner component while the component is loading.</li>
+<li>I also use extensively useState and useEffect aswell.</li>
+<li>The project is responsive.</li>
+</ul>
 
 ## APPS
 
@@ -29,25 +31,25 @@ I choose this one, because it was very nice and easy to fetch the data from it.
 You can add notes, delete and change the color of the background of the notes.
 
 ### CALCULATOR
-Components: Calculator.js, CalculatorButton.js, CalculatorButtonClear.js, CalculatorScreen.js.
-Modules: evaluate, sqrt, pow, factorial from mathjs.
-This calculator is using the method of mathjs to evaluate a string like a mathematical expresion.
+<b>Components: Calculator.js, CalculatorButton.js, CalculatorButtonClear.js, CalculatorScreen.js.<br>
+<b>Modules: evaluate, sqrt, pow, factorial from mathjs.</b><br>
+This calculator is using the method of mathjs to evaluate a string like a mathematical expresion.<br>
 For example: the string '234+2.52' is converted as 234 + 2.52.
 
 ### ROCK PAPER SCISSORS GAME
-Components: StonePaperScissorsGame.js.
-This game uses the image like a button, using the method onClick() this way:
-onClick={(e) => handleClickChoice('Paper').
-The images are circled. To create the shadow for them I had to add this to the css:
-border-radius:50%;
+  <b>Components: StonePaperScissorsGame.js.</b><br>
+This game uses the image like a button, using the method onClick() this way:<br>
+onClick={(e) => handleClickChoice('Paper').<br>
+The images are circled. To create the shadow for them I had to add this to the css:<br>
+border-radius:50%;<br>
 
 ### COUNTER
-Components: Counter.js
-Very simple counter to count the clicks of the button.
+  <b>Components: Counter.js</b><br>
+Very simple counter to count the clicks of the button.<br>
 
 ### JSON BD
-Components: UsersTable.js
-A sample of how to fetch a JSON DB stored in the same directory of the project.
+  <b>Components: UsersTable.js</b><br>
+A sample of how to fetch a JSON DB stored in the same directory of the project.<br>
 
 ### TO DOs
 <ul>
