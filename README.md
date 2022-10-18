@@ -18,14 +18,14 @@ The project is responsive.
 ## APPS
 
 ### COUNTDOWN
-Components: Countdown.js
-Modules: Calendar from react-calendar
-Creates a countdown from a date choosen by the user in the react-calendar.
+<b>Components: Countdown.js</b><br>
+<b>Modules: Calendar from react-calendar</b><br>
+Creates a countdown from a date choosen by the user in the react-calendar.<br>
 I choose this one, because it was very nice and easy to fetch the data from it.
 
 ### POSTICKS
-Components: Posts.js, Posticks.js, AddPost.js, SearchPost.js 
-Modules: nanoid
+<b>Components: Posts.js, Posticks.js, AddPost.js, SearchPost.js</b><br>
+<b>Modules: nanoid</b><br>
 You can add notes, delete and change the color of the background of the notes.
 
 ### CALCULATOR
