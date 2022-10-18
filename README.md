@@ -31,7 +31,7 @@ I choose this one, because it was very nice and easy to fetch the data from it.
 You can add notes, delete and change the color of the background of the notes.
 
 ### CALCULATOR
-<b>Components: Calculator.js, CalculatorButton.js, CalculatorButtonClear.js, CalculatorScreen.js.<br>
+<b>Components: Calculator.js, CalculatorButton.js, CalculatorButtonClear.js, CalculatorScreen.js.</b><br>
 <b>Modules: evaluate, sqrt, pow, factorial from mathjs.</b><br>
 This calculator is using the method of mathjs to evaluate a string like a mathematical expresion.<br>
 For example: the string '234+2.52' is converted as 234 + 2.52.
