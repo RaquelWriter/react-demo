@@ -50,7 +50,9 @@ Components: UsersTable.js
 A sample of how to fetch a JSON DB stored in the same directory of the project.
 
 ### TO DOs
-Include a Menu.
-Include a way to change the Posticks
-Fix an error in Calculator.
+<ul>
+  <li>Include a Menu.</li>
+  <li>Include a way to change the Posticks</li>
+  <li>Fix an error in Calculator.</li>
+</ul>
 
