@@ -13,7 +13,7 @@ Then type npm start.
 ## SOME NOTES
 <ul>
   <li>I use lazy load for most of the components, showing the LoadingSpinner component while the component is loading.</li>
-<li>I also use extensively useState and useEffect aswell.</li>
+<li>I use extensively useState and useEffect aswell.</li>
 <li>The project is responsive.</li>
 </ul>
 
