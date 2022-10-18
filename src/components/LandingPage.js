@@ -20,7 +20,7 @@ function LandingPage() {
           <div>
             <Link to='/Posticks'>
               <p>
-                <img src={posticksImg} className='screenshotsLandingPage' />
+                <img alt='' src={posticksImg} className='screenshotsLandingPage' />
               </p>
               <button className='button button-lila-neon'>POSTICKS</button>
             </Link>
@@ -28,7 +28,7 @@ function LandingPage() {
           <div>
             <Link to='/Calculator'>
               <p>
-                <img src={calculatorImg} className='screenshotsLandingPage' />
+                <img alt='' src={calculatorImg} className='screenshotsLandingPage' />
               </p>
               <button className='button button-lila-neon'>CALCULATOR</button>
             </Link>
@@ -36,7 +36,7 @@ function LandingPage() {
           <div>
             <Link to='/Countdown'>
               <p>
-                <img src={countdownImg} className='screenshotsLandingPage' />
+                <img alt='' src={countdownImg} className='screenshotsLandingPage' />
               </p>
               <button className='button button-lila-neon'>COUNTDOWN</button>
             </Link>
@@ -44,7 +44,7 @@ function LandingPage() {
           <div>
             <Link to='/StonePaperScissorsGame'>
               <p>
-                <img src={stonepaperscissorsImg} className='screenshotsLandingPage' />
+                <img alt='' src={stonepaperscissorsImg} className='screenshotsLandingPage' />
               </p>
               <button className='button button-lila-neon'>Paper Stone Scissors</button>
             </Link>
@@ -52,7 +52,7 @@ function LandingPage() {
           <div>
             <Link to='/UsersTable'>
               <p>
-                <img src={usersTableImg} className='screenshotsLandingPage' />
+                <img alt='' src={usersTableImg} className='screenshotsLandingPage' />
               </p>
               <button className='button button-lila-neon'>JSON DB</button>
             </Link>
@@ -60,7 +60,7 @@ function LandingPage() {
           <div>
             <Link to='/Counter'>
               <p>
-                <img src={counterImg} className='screenshotsLandingPage' />
+                <img alt='' src={counterImg} className='screenshotsLandingPage' />
               </p>
               <button className='button button-lila-neon'>COUNTER</button>
             </Link>
