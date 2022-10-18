@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import LoadingSpinner from './components/LoadingSpinner';
 
+const StonePaperScissorsGame = lazy(() => import('./components/StonePaperScissorsGame'));
 const Calculator = lazy(() => import('./components/Calculator'));
 const UsersTable = lazy(() => import('./components/UsersTable'));
 const Posticks = lazy(() => import('./components/Posticks'));
@@ -125,6 +126,7 @@ function App() {
           <Route exact path='/Countdown' element={<Countdown />} />
           <Route exact path='/Posticks' element={<Posticks />} />
           <Route exact path='/Calculator' element={<Calculator />} />
+          <Route exact path='/StonePaperScissorsGame' element={<StonePaperScissorsGame />} />
           <Route exact path='/UsersTable' element={<UsersTable />} />
           <Route exact path='/Counter' element={<Counter />} />
         </Routes>
