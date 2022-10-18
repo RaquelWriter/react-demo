@@ -6,6 +6,7 @@ import calculatorImg from '../images/calculator.jpg';
 import countdownImg from '../images/countdown.jpg';
 import counterImg from '../images/counter.jpg';
 import usersTableImg from '../images/userstable.jpg';
+import stonepaperscissorsImg from '../images/stonepaperscissors.jpg';
 
 function LandingPage() {
   return (
@@ -41,11 +42,19 @@ function LandingPage() {
             </Link>
           </div>
           <div>
+            <Link to='/StonePaperScissorsGame'>
+              <p>
+                <img src={stonepaperscissorsImg} className='screenshotsLandingPage' />
+              </p>
+              <button className='button button-lila-neon'>Paper Stone Scissors</button>
+            </Link>
+          </div>
+          <div>
             <Link to='/UsersTable'>
               <p>
                 <img src={usersTableImg} className='screenshotsLandingPage' />
               </p>
-              <button className='button button-lila-neon'>USERS JSON DB FETCHING</button>
+              <button className='button button-lila-neon'>JSON DB</button>
             </Link>
           </div>
           <div>
