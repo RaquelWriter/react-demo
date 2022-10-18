@@ -73,21 +73,24 @@ function StonePaperScissorsGame() {
       <div className='container-stone-paper-scissors'>
         <div className='img-stone-paper-scissors'>
           <img
-          className='imgSPS'
+            alt=''
+            className='imgSPS'
             onClick={(e) => handleClickChoice('Stone')}
             src={require('../images/stone.png')}
           />
         </div>
         <div className='img-stone-paper-scissors'>
           <img
-          className='imgSPS'
+            alt=''
+            className='imgSPS'
             onClick={(e) => handleClickChoice('Paper')}
             src={require('../images/paper.png')}
           />
         </div>
         <div className='img-stone-paper-scissors'>
           <img
-          className='imgSPS'
+            alt=''
+            className='imgSPS'
             onClick={(e) => handleClickChoice('Scissors')}
             src={require('../images/scissors.png')}
           />
